@@ -1,6 +1,6 @@
 /* background image */
 #body {
-	background-image: url("images/beach.jpg");
+	background-image: url("images/wood.jpg");
 	background-repeat: no-repeat;
 }
 
@@ -13,21 +13,22 @@
 	vertical-align: middle;
 	line-height: 4em;
 	font-family: avenir;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 .row {
 	position:fixed;
 	left:0px;
 	right:0px;
 }
+/* Self Image */
 .picture {
    position: absolute;
-   top: 50%;
+   top: 40%;
    left: 50%;
-   width: 200px;
-   height: 200px;
-   margin-top: -100px;
-   margin-left: -100px; 
+   width: 250px;
+   height: 250px;
+   margin-top: -125px;
+   margin-left: -125px; 
    border-radius: 50% 50% 50% 50%;
 }
 
