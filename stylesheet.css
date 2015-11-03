@@ -1,9 +1,10 @@
+/* background image */
 #body {
 	background-image: url("images/beach.jpg");
 	background-repeat: no-repeat;
 }
 
-/* Header */
+/* Navigation Bar */
 .col-md-4 {
 	background-color: white;
 	height: 4em;
@@ -16,7 +17,17 @@
 }
 .row {
 	position:fixed;
-	width:110%;
 	left:0px;
 	right:0px;
 }
+.picture {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 200px;
+   height: 200px;
+   margin-top: -100px;
+   margin-left: -100px; 
+   border-radius: 50% 50% 50% 50%;
+}
+
