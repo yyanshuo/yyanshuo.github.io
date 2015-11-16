@@ -23,7 +23,7 @@
 }
 
 .welcome {
-  position:absolute;
+  position: absolute;
   top: 56%;
   font-size: 50px;
   color: white;
@@ -41,11 +41,9 @@ body {
 section.module:last-child {
   margin-bottom: 0;
 }
-
-/*=======Section Heading=========*/
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Lobster Two";
+  font-family: "Roboto Slab", serif;
   font-size: 30px;
 }
 section.module p {
@@ -116,12 +114,12 @@ section.module.parallax.parallax-1 {
 /*===================Navigation Bar=========================*/
 .col-md-4 {
   background-color: white;
-  height: 60px;
+  height: 4em;
   text-align: center;
   vertical-align: middle;
-  line-height: 60px;
+  line-height: 4em;
   font-family: 'Lobster Two';
-  font-size: 20px;
+  font-size: 1.1em;
   opacity: 0.8;
 }
 .row {
@@ -131,65 +129,7 @@ section.module.parallax.parallax-1 {
   position:fixed;
 }
 
-/*=====================Social Media Buttons=====================*/
-.socialmedia {
-  position: absolute;
-  width: 100%;
-  text-align: right;
-  top: 94%;
-  color: white;
-  opacity: 0.8;
-}
-.linkedin {
-  padding-right: 15px;
-}
-.googleplus {
-  padding-right: 15px;
-}
-.resume {
-  padding-right: 30px;
-}
 
-/*=========================Bounce In===========================*/
-.hvr-bounce-in {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
-.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-}
 
-/*=============Eliminate Decoration from HyperLink===========*/
-a.decoration:link
-{
-   color: white;
-   text-decoration: none;
-}
-a.decoration:visited
-{
-   color: white;
-   text-decoration: none;
-}
-a.decoration:hover
-{
-   color: white;
-   text-decoration: none;
-}
-a.decoration:active
-{
-   color: white;
-   text-decoration: none;
-}
 
 
