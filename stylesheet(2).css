@@ -52,6 +52,8 @@ section.module p {
   margin-bottom: 40px;
   font-size: 16px;
   font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
 }
 section.module p:last-child {
   margin-bottom: 0;
@@ -74,8 +76,8 @@ section.module.parallax h1 {
   line-height: 600px;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: "Lobster Two";
 }
 section.module.parallax-1 {
   background-image: url("images/wood.jpg");
@@ -136,18 +138,18 @@ section.module.parallax.parallax-1 {
   position: absolute;
   width: 100%;
   text-align: right;
-  top: 94%;
+  top: 93%;
   color: white;
   opacity: 0.8;
 }
 .linkedin {
-  padding-right: 15px;
+  padding-right: 20px;
 }
 .googleplus {
-  padding-right: 15px;
+  padding-right: 20px;
 }
 .resume {
-  padding-right: 30px;
+  padding-right: 35px;
 }
 
 /*=========================Bounce In===========================*/
@@ -190,6 +192,16 @@ a.decoration:active
 {
    color: white;
    text-decoration: none;
+}
+/*=============Picture1 and Decription1===================*/
+.picture1{
+  width: 130px;
+  height: 130px;
+  border: 5px solid #CDC5BF;
+}
+.description1 {
+  font-size: 20px;
+  padding-top: 33px;
 }
 
 
