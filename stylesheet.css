@@ -80,10 +80,10 @@ section.module.parallax h1 {
   font-family: "Lobster Two";
 }
 section.module.parallax-1 {
-  background-image: url("images/wood.jpg");
+  background-image: url("Images/wood.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("images/beach.jpg");
+  background-image: url("Images/beach.jpg");
 }
 section.module.parallax-3 {
   background-image: url("../img/demo/_small/3.jpg");
