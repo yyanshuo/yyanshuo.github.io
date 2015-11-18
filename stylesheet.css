@@ -194,14 +194,36 @@ a.decoration:active
    text-decoration: none;
 }
 /*=============Picture1 and Decription1===================*/
-.picture1{
+.aboutme {
+  height: 500px;
+}
+.aboutmeimages {
+  padding-bottom: 150px;
+}
+.picture1 {
   width: 130px;
   height: 130px;
   border: 5px solid #CDC5BF;
 }
 .description1 {
   font-size: 20px;
-  padding-top: 33px;
 }
+.picture2 {
+  width: 130px;
+  height: 130px;
+  border: 5px solid #CDC5BF;
+}
+.description2 {
+  font-size: 20px;
+}
+.picture3 {
+  width: 130px;
+  height: 130px;
+  border: 5px solid #CDC5BF;
+}
+.description3 {
+  font-size: 20px;
+}
+
 
 
