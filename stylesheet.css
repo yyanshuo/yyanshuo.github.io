@@ -28,7 +28,7 @@
   font-size: 50px;
   color: white;
   opacity: 0.8;
-  font-family: 'Lobster Two';
+  font-family: 'Raleway';
   text-align: center;
   width: 100%;
 }
@@ -45,7 +45,7 @@ section.module:last-child {
 /*=======Section Heading=========*/
 section.module h2 {
   margin-bottom: 40px;
-  font-family: "Lobster Two";
+  font-family: "Raleway";
   font-size: 30px;
 }
 section.module p {
@@ -77,7 +77,7 @@ section.module.parallax h1 {
   font-weight: 700;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  font-family: "Lobster Two";
+  font-family: "Raleway";
 }
 section.module.parallax-1 {
   background-image: url("Images/Wood.jpg");
@@ -94,7 +94,7 @@ section.module.parallax-3 {
     font-size: 42px;
   }
   section.module p {
-    font-size: 20px;
+    font-size: 17px;
   }
   section.module.parallax h1 {
     font-size: 96px;
@@ -122,7 +122,7 @@ section.module.parallax.parallax-1 {
   text-align: center;
   vertical-align: middle;
   line-height: 60px;
-  font-family: 'Lobster Two';
+  font-family: 'Raleway';
   font-size: 20px;
   opacity: 0.8;
 }
@@ -195,7 +195,7 @@ a.decoration:active
 }
 /*=============Picture1 and Decription1===================*/
 .aboutme {
-  height: 500px;
+  height: 550px;
 }
 .aboutmeimages {
   padding-bottom: 150px;
@@ -204,9 +204,14 @@ a.decoration:active
   width: 130px;
   height: 130px;
   border: 5px solid #CDC5BF;
+  margin-left: -100px;
+  margin-right: 100px;
 }
 .description1 {
-  font-size: 20px;
+  margin-left: -100px;
+  margin-right: 100px;
+  font-family: "Raleway";
+  font-size: 15px;
 }
 .picture2 {
   width: 130px;
@@ -214,7 +219,8 @@ a.decoration:active
   border: 5px solid #CDC5BF;
 }
 .description2 {
-  font-size: 20px;
+  font-family: "Raleway";
+  font-size: 15px;
 }
 .picture3 {
   width: 130px;
@@ -222,8 +228,8 @@ a.decoration:active
   border: 5px solid #CDC5BF;
 }
 .description3 {
-  font-size: 20px;
+  font-size: 15px;
+  font-family: "Raleway";
 }
-
 
 
