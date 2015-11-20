@@ -44,7 +44,7 @@ section.module:last-child {
 
 /*=======Section Heading=========*/
 section.module h2 {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-family: "Raleway";
   font-size: 30px;
 }
@@ -63,8 +63,11 @@ section.module.content {
 /*=============WEBSITE BACKGROUND COLOR======================*/
   background-color: white;
 }
+.section1{
+  height:550px;
+}
 section.module.parallax {
-  height: 729px;
+  height: 749px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -95,6 +98,7 @@ section.module.parallax-3 {
   }
   section.module p {
     font-size: 17px;
+    line-height: 1.6;
   }
   section.module.parallax h1 {
     font-size: 96px;
@@ -194,11 +198,16 @@ a.decoration:active
    text-decoration: none;
 }
 /*=============Picture1 and Decription1===================*/
+.boutme{
+  color:grey;
+  margin-left: -100px;
+}
 .aboutme {
   height: 550px;
 }
 .aboutmeimages {
-  padding-bottom: 150px;
+  padding-bottom: 175px;
+  padding-top:30px;
 }
 .picture1 {
   width: 130px;
@@ -211,7 +220,6 @@ a.decoration:active
   margin-left: -100px;
   margin-right: 100px;
   font-family: "Raleway";
-  font-size: 15px;
 }
 .picture2 {
   width: 130px;
@@ -220,16 +228,45 @@ a.decoration:active
 }
 .description2 {
   font-family: "Raleway";
-  font-size: 15px;
 }
 .picture3 {
   width: 130px;
   height: 130px;
   border: 5px solid #CDC5BF;
+  margin-left: 100px;
+  margin-right: -100px;
 }
 .description3 {
-  font-size: 15px;
+  margin-left: 100px;
+  margin-right: -100px;
   font-family: "Raleway";
 }
-
-
+/*======================whiteline===========================*/
+.whiteline1 {
+  height: 10px;
+  width: 1290px;
+  background-color: white;
+  margin-top: -60px;
+  position: absolute;
+}
+.whiteline2 {
+  height: 10px;
+  width: 1290px;
+  background-color: white;
+  margin-top: -30px;
+  position: absolute;
+}
+.whiteline3 {
+  height: 10px;
+  width: 1290px;
+  background-color: white;
+  margin-top: -60px;
+  position: absolute;
+}
+.whiteline4 {
+  height: 10px;
+  width: 1290px;
+  background-color: white;
+  margin-top: 50px;
+  position: absolute;
+}
